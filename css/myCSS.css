@@ -1,4 +1,4 @@
-@media only screen and (min-width: 381px) {
+@media only screen and (min-width: 392px) {
   body {
     margin: 0 auto;
     width: 95%;
@@ -213,7 +213,8 @@
     border-radius: 8px;
     background-color: white;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
-    padding: 40px 80px 40px 80px;
+    max-width: 700px;
+    padding: 5% 10%;
   }
 
   .hidden {
@@ -227,7 +228,8 @@
   input[type="number"],
   select,
   textarea {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
