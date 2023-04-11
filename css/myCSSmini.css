@@ -12,7 +12,7 @@
   #my-image {
     border-radius: 8px;
     width: 200px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .job-title {
@@ -124,6 +124,7 @@
 
   .timeline {
     padding-bottom: 0px;
+    text-align: center;
   }
 
   .timeline-event {
