@@ -12,236 +12,243 @@
   </head>
 
   <body>
-    <header>
-      <h1>Gladwin Chan</h1>
-      <p class="job-title">Web Developer</p>
-      <img src="images/About.jpg" alt="Picture of Me" id="my-image" />
-      <div class="buttons">
-        <button
-          type="button"
-          onclick="location.href='images/Resume.pdf'"
-          download
-        >
-          Download Resume
-        </button>
-        <button type="button" onclick="location.href='#contact'">
-          Contact Me
-        </button>
-      </div>
-    </header>
-
-    <div class="infographic">
-      <div class="left-section">
-        <h3>About Me and Academic Honesty</h3>
-        <p>
-          Hello, my name is Gladwin and I am in my second semester of the CPA
-          program. Currently, I am enrolled in courses on database systems,
-          object-oriented programming, software testing, and web programming
-          principles. I have really enjoyed my academic journey in the CPA
-          program and look forward to continuing my studies and learning as much
-          as I can.<br />
-          <br />
-          Honesty Statement: <br />
-          <i
-            >I declare that my assessment is wholly my own work in accordance
-            with Seneca Academic Policy. No part of this assessment has been
-            copied manually or electronically from any other source (including
-            web sites) except for the information supplied by the WEB222
-            instructors and / or made available in this assessment for my use. I
-            also declare that no part of this assignment has been distributed to
-            other students.</i
+    <main>
+      <header>
+        <h1>Gladwin Chan</h1>
+        <p class="job-title">Web Developer</p>
+        <img src="images/About.jpg" alt="Picture of Me" id="my-image" />
+        <div class="buttons">
+          <button
+            type="button"
+            onclick="location.href='images/Resume.pdf'"
+            download
           >
-          <br />
-          <br />
-          <b>Date:</b> April 2023
-        </p>
-      </div>
-      <div class="right-section">
-        <h3>Basic Information</h3>
-        <table>
-          <tr>
-            <td>Age:</td>
-            <td>27</td>
-          </tr>
-          <tr>
-            <td>Email:</td>
-            <td>gchan46@myseneca.ca</td>
-          </tr>
-          <tr>
-            <td>Language:</td>
-            <td>English, Cantonese</td>
-          </tr>
-          <tr>
-            <td>Class Section:</td>
-            <td>NDD</td>
-          </tr>
-          <tr>
-            <td>Student ID:</td>
-            <td>130839228</td>
-          </tr>
-          <tr>
-            <td>Instructor:</td>
-            <td>Mark Meritt</td>
-          </tr>
-        </table>
-      </div>
-    </div>
+            Download Resume
+          </button>
+          <button type="button" onclick="location.href='#contact'">
+            Contact Me
+          </button>
+        </div>
+      </header>
 
-    <section class="timeline">
-      <h2>Education</h2>
-      <div class="timeline-container">
-        <div class="timeline-event">
-          <div class="event-date">2022-Present</div>
-          <div class="event-title">Computer Programming & Analysis</div>
-          <div class="event-school">Seneca College</div>
-          <div class="event-description">
-            Three year advanced diploma program providing skills and knowledge
-            for me to begin my career as a software developer.
-          </div>
+      <div class="infographic">
+        <div class="left-section">
+          <h3>About Me and Academic Honesty</h3>
+          <p>
+            Hello, my name is Gladwin and I am in my second semester of the CPA
+            program. Currently, I am enrolled in courses on database systems,
+            object-oriented programming, software testing, and web programming
+            principles. I have really enjoyed my academic journey in the CPA
+            program and look forward to continuing my studies and learning as
+            much as I can.<br />
+            <br />
+            Honesty Statement: <br />
+            <i
+              >I declare that my assessment is wholly my own work in accordance
+              with Seneca Academic Policy. No part of this assessment has been
+              copied manually or electronically from any other source (including
+              web sites) except for the information supplied by the WEB222
+              instructors and / or made available in this assessment for my use.
+              I also declare that no part of this assignment has been
+              distributed to other students.</i
+            >
+            <br />
+            <br />
+            <b>Date:</b> April 2023
+          </p>
         </div>
-        <div class="timeline-event">
-          <div class="event-date">2017-2020</div>
-          <div class="event-title">Medical Laboratory Science</div>
-          <div class="event-school">
-            The Michener Institute of Education at UHN
-          </div>
-          <div class="event-description">
-            Upon successful completion of a three-year program, I have received
-            an advanced diploma qualifying me to work as a health professional
-            proficient in performing laboratory analysis.
-          </div>
-        </div>
-        <div class="timeline-event">
-          <div class="event-date">2012-2016</div>
-          <div class="event-title">Biomedical Sciences</div>
-          <div class="event-school">University of Waterloo</div>
-          <div class="event-description">
-            Bachelor of Science degree in Biomedical Sciences, with a focus on
-            foundational coursework in biology, chemistry, physics, and
-            mathematics.
-          </div>
+        <div class="right-section">
+          <h3>Basic Information</h3>
+          <table>
+            <tr>
+              <td>Age:</td>
+              <td>27</td>
+            </tr>
+            <tr>
+              <td>Email:</td>
+              <td>gchan46@myseneca.ca</td>
+            </tr>
+            <tr>
+              <td>Language:</td>
+              <td>English, Cantonese</td>
+            </tr>
+            <tr>
+              <td>Class Section:</td>
+              <td>NDD</td>
+            </tr>
+            <tr>
+              <td>Student ID:</td>
+              <td>130839228</td>
+            </tr>
+            <tr>
+              <td>Instructor:</td>
+              <td>Mark Meritt</td>
+            </tr>
+          </table>
         </div>
       </div>
-    </section>
 
-    <section class="contact" id="contact">
-      <h2>Contact Me</h2>
-      <div class="contact-form-container">
-        <form id="contact-form" method="POST" action="https://httpbin.org/post">
-          <div class="form-group">
-            <label for="name">Name:</label> <br />
-            <input type="text" id="name" name="name" required />
-          </div>
-          <div class="form-group">
-            <label for="email">Email Address:</label> <br />
-            <input type="email" id="email" name="email" required />
-          </div>
-          <div class="form-group">
-            <label for="address">Address:</label> <br />
-            <input type="text" id="address" name="address" required />
-          </div>
-          <div class="form-group">
-            <label for="city">City:</label> <br />
-            <input type="text" id="city" name="city" list="cities" required />
-            <datalist id="cities">
-              <option value="Toronto"></option>
-              <option value="Montreal"></option>
-              <option value="Ottawa"></option>
-              <option value="Vancouver"></option>
-              <option value="Calgary"></option>
-              <option value="Edmonton"></option>
-            </datalist>
-          </div>
-          <div class="form-group">
-            <label for="postal-code">Postal Code:</label> <br />
-            <input
-              type="text"
-              id="postal-code"
-              name="postal-code"
-              pattern="^[A-Za-z]\d[A-Za-z]\s?\d[A-Za-z]\d$"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="reason">Reason for Contact:</label>
-            <div class="radio-group">
-              <input
-                type="radio"
-                id="question"
-                name="reason"
-                value="question"
-                required
-              />
-              <label for="question">Question</label> <br />
-              <input
-                type="radio"
-                id="comment"
-                name="reason"
-                value="comment"
-                required
-              />
-              <label for="comment">Comment</label> <br />
-              <input
-                type="radio"
-                id="hiring"
-                name="reason"
-                value="hiring"
-                required
-              />
-              <label for="hiring">Hiring</label> <br />
+      <section class="timeline">
+        <h2>Education</h2>
+        <div class="timeline-container">
+          <div class="timeline-event">
+            <div class="event-date">2022-Present</div>
+            <div class="event-title">Computer Programming & Analysis</div>
+            <div class="event-school">Seneca College</div>
+            <div class="event-description">
+              Three year advanced diploma program providing skills and knowledge
+              for me to begin my career as a software developer.
             </div>
           </div>
-          <div class="form-group hidden" id="hourly-rate">
-            <label for="hourly-rate">Hourly Rate:</label> <br />
-            <input
-              type="number"
-              id="hourly-rate"
-              name="hourly-rate"
-              min="0"
-              step="0.01"
-              required
-            />
+          <div class="timeline-event">
+            <div class="event-date">2017-2020</div>
+            <div class="event-title">Medical Laboratory Science</div>
+            <div class="event-school">
+              The Michener Institute of Education at UHN
+            </div>
+            <div class="event-description">
+              Upon successful completion of a three-year program, I have
+              received an advanced diploma qualifying me to work as a health
+              professional proficient in performing laboratory analysis.
+            </div>
           </div>
-          <div class="form-group">
-            <label for="message">Message:</label> <br />
-            <textarea
-              id="message"
-              name="message"
-              rows="5"
-              required
-              placeholder="Enter a message here"
-            ></textarea>
+          <div class="timeline-event">
+            <div class="event-date">2012-2016</div>
+            <div class="event-title">Biomedical Sciences</div>
+            <div class="event-school">University of Waterloo</div>
+            <div class="event-description">
+              Bachelor of Science degree in Biomedical Sciences, with a focus on
+              foundational coursework in biology, chemistry, physics, and
+              mathematics.
+            </div>
           </div>
-          <div class="form-group">
-            <label for="enjoyed">Did you enjoy using the website?</label> <br />
-            <select id="enjoyed" name="enjoyed" required>
-              <option value="" disabled selected>Select an option</option>
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <br />
-            <label for="rating">Rating:</label> <br />
-            <input
-              type="range"
-              id="rating"
-              name="rating"
-              min="0"
-              max="10"
-              step="1"
-              required
-            />
-          </div>
-          <div class="form-group">
-            <label for="date">Date Submitted:</label> <br />
-            <input type="date" id="date" name="date" required />
-          </div>
-          <div class="form-group">
-            <br /><button type="submit">Submit</button>
-          </div>
-        </form>
-      </div>
-    </section>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-form-container">
+          <form
+            id="contact-form"
+            method="POST"
+            action="https://httpbin.org/post"
+          >
+            <div class="form-group">
+              <label for="name">Name:</label> <br />
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address:</label> <br />
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="address">Address:</label> <br />
+              <input type="text" id="address" name="address" required />
+            </div>
+            <div class="form-group">
+              <label for="city">City:</label> <br />
+              <input type="text" id="city" name="city" list="cities" required />
+              <datalist id="cities">
+                <option value="Toronto"></option>
+                <option value="Montreal"></option>
+                <option value="Ottawa"></option>
+                <option value="Vancouver"></option>
+                <option value="Calgary"></option>
+                <option value="Edmonton"></option>
+              </datalist>
+            </div>
+            <div class="form-group">
+              <label for="postal-code">Postal Code:</label> <br />
+              <input
+                type="text"
+                id="postal-code"
+                name="postal-code"
+                pattern="^[A-Za-z]\d[A-Za-z]\s?\d[A-Za-z]\d$"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="reason">Reason for Contact:</label>
+              <div class="radio-group">
+                <input
+                  type="radio"
+                  id="question"
+                  name="reason"
+                  value="question"
+                  required
+                />
+                <label for="question">Question</label> <br />
+                <input
+                  type="radio"
+                  id="comment"
+                  name="reason"
+                  value="comment"
+                  required
+                />
+                <label for="comment">Comment</label> <br />
+                <input
+                  type="radio"
+                  id="hiring"
+                  name="reason"
+                  value="hiring"
+                  required
+                />
+                <label for="hiring">Hiring</label> <br />
+              </div>
+            </div>
+            <div class="form-group hidden" id="hourly-rate">
+              <label for="hourly-rate">Hourly Rate:</label> <br />
+              <input
+                type="number"
+                id="hourly-rate"
+                name="hourly-rate"
+                min="0"
+                step="0.01"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label> <br />
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+                placeholder="Enter a message here"
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <label for="enjoyed">Did you enjoy using the website?</label>
+              <br />
+              <select id="enjoyed" name="enjoyed" required>
+                <option value="" disabled selected>Select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <br />
+              <label for="rating">Rating:</label> <br />
+              <input
+                type="range"
+                id="rating"
+                name="rating"
+                min="0"
+                max="10"
+                step="1"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="date">Date Submitted:</label> <br />
+              <input type="date" id="date" name="date" required />
+            </div>
+            <div class="form-group">
+              <br /><button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
