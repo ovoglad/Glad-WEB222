@@ -1,0 +1,282 @@
+@media only screen and (min-width: 401px) {
+  body {
+    margin: 0 auto;
+    width: 95%;
+    max-width: 1024px;
+  }
+
+  #my-image {
+    border-radius: 8px;
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .job-title {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+
+  header {
+    text-align: center;
+    align-items: center;
+    padding: 40px 100px 40px 100px;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 40px;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "PT Sans", "Open Sans", "Fira Sans",
+      "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  button {
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    box-shadow: rgba(255, 255, 255, 0.4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans",
+      sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 5px;
+    outline: none;
+    padding: 8px 0.8em;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  }
+
+  button:hover,
+  button:focus {
+    background-color: #07c;
+  }
+
+  button:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
+  }
+
+  button:active {
+    background-color: #0064bd;
+    box-shadow: none;
+  }
+
+  .infographic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 100px 50px 100px;
+    margin-top: 50px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+  }
+
+  .left-section {
+    flex-basis: 50%;
+    padding-right: 50px;
+  }
+
+  .right-section {
+    flex-basis: 50%;
+    padding-left: 50px;
+  }
+
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  td:first-child {
+    font-weight: bold;
+  }
+
+  .timeline {
+    align-items: center;
+    padding: 40px 100px 40px 100px;
+  }
+
+  .timeline h2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+
+  .timeline-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .timeline-event {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    margin-right: 30px;
+  }
+
+  .event-date {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .event-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .event-school {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  .event-description {
+    font-size: 14px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  form input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .contact h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 25px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-top: 50px;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+  }
+
+  .contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 40px 80px 40px 80px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  input[type="range"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 400px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  ::placeholder {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "PT Sans", "Open Sans", "Fira Sans",
+      "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+
+  input[type="date"] {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "PT Sans", "Open Sans", "Fira Sans",
+      "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .infographic {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .left-section,
+  .right-section {
+    flex-basis: 100%;
+    padding: 20px;
+  }
+
+  .right-section {
+    margin-top: 20px;
+  }
+
+  .timeline {
+    padding: 20px;
+  }
+
+  .timeline-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .timeline-event {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
