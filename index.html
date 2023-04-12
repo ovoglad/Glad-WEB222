@@ -18,13 +18,9 @@
         <p class="job-title">Web Developer</p>
         <img src="images/About.jpg" alt="Picture of Me" id="my-image" />
         <div class="buttons">
-          <button
-            type="button"
-            onclick="location.href='images/Resume.pdf'"
-            download
-          >
+          <a href="images/Resume.pdf" class="button" download>
             Download Resume
-          </button>
+          </a>
           <button type="button" onclick="location.href='#contact'">
             Contact Me
           </button>
@@ -168,39 +164,37 @@
               />
             </div>
             <div class="form-group">
-              <label for="reason">Reason for Contact:</label>
-              <div class="radio-group">
-                <input
-                  type="radio"
-                  id="question"
-                  name="reason"
-                  value="question"
-                  required
-                />
-                <label for="question">Question</label> <br />
-                <input
-                  type="radio"
-                  id="comment"
-                  name="reason"
-                  value="comment"
-                  required
-                />
-                <label for="comment">Comment</label> <br />
-                <input
-                  type="radio"
-                  id="hiring"
-                  name="reason"
-                  value="hiring"
-                  required
-                />
-                <label for="hiring">Hiring</label> <br />
-              </div>
+              <p>Reason for Contact:</p>
+              <input
+                type="radio"
+                id="question"
+                name="reason"
+                value="question"
+                required
+              />
+              <label for="question">Question</label> <br />
+              <input
+                type="radio"
+                id="comment"
+                name="reason"
+                value="comment"
+                required
+              />
+              <label for="comment">Comment</label> <br />
+              <input
+                type="radio"
+                id="hiring"
+                name="reason"
+                value="hiring"
+                required
+              />
+              <label for="hiring">Hiring</label> <br />
             </div>
             <div class="form-group hidden" id="hourly-rate">
-              <label for="hourly-rate">Hourly Rate:</label> <br />
+              <label for="hourly-rate-input">Hourly Rate:</label> <br />
               <input
                 type="number"
-                id="hourly-rate"
+                id="hourly-rate-input"
                 name="hourly-rate"
                 min="0"
                 step="0.01"
@@ -208,6 +202,7 @@
               />
             </div>
             <div class="form-group">
+              <br />
               <label for="message">Message:</label> <br />
               <textarea
                 id="message"
@@ -236,7 +231,6 @@
                 min="0"
                 max="10"
                 step="1"
-                required
               />
             </div>
             <div class="form-group">
